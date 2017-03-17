@@ -154,7 +154,7 @@ public class PhotoCustomiserMainWindow extends JFrame {
 	
 		this.photoSourceFolderPath = photoSourceFolderPath;
 	
-		this.setTitle("PSDB 45 - Santinho do Perfil");
+		this.setTitle("PhotoCustomiser");
 		
 		//sep = System.getProperty("path.separator");
 		sep = File.separator;
@@ -186,12 +186,12 @@ public class PhotoCustomiserMainWindow extends JFrame {
 		JPanel panelTopHeadline = new JPanel();
 		panelTopHeadline.setLayout(new FlowLayout());
 		
-		JLabel headline1 = new JLabel("PSDB");
+		JLabel headline1 = new JLabel("...");
 		headline1.setFont(new Font("Arial", Font.ITALIC | Font.BOLD, 120));
 		headline1.setForeground(Color.BLUE);
 		panelTopHeadline.add(headline1);
 		
-		JLabel headline2 = new JLabel("45");
+		JLabel headline2 = new JLabel("...");
 		headline2.setFont(new Font("Arial", Font.ITALIC | Font.BOLD, 120));
 		headline2.setForeground(Color.YELLOW);
 		panelTopHeadline.add(headline2);
